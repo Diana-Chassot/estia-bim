@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pourQui": "For Who",
+    "openbim": "OpenBIM",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "contact-us": "Contact Us"
+  },
+  "hero": {
+    "title": "EstiaBIM for BIM Data Quality Management",
+    "description": "EstiaBIM is a platform based on BuildingSMART's OpenBIM concepts to optimize the exchange of BIM data with IDS",
+    "how-it-work-video-btn": "How does It Work",
+    "contact-btn": "Contact Us"
+  },
+  "features": {
+    "title": "BIM Requirements Management Made Easy with EstiaBIM",
+    "description": "EstiaBIM brings together all the necessary tools for validating digital models and exchanging BIM requirements. The platform makes the use of IDS simple and efficient",
+    "f1-title": "Creating BIM Requirements",
+    "f1-description": "The platform allows converting requirements from an Excel file containing BIM model information to the IDS (Information Delivery Specification) format. IDS is a standard OpenBIM format. An Excel template is available for entering control rules, and the user can quickly set up their specifications and convert them into a standardized OpenBIM format.",
+    "f2-title": "IDS Content Report",
+    "f2-description": "When creating an IDS with EstiaBIM, the user can download a PDF report of the IDS content. The IDS format is a machine-readable file. EstiaBIM makes the IDS content understandable to humans. This PDF report also helps verify the IDS content to ensure correct rule settings. This visual document allows your partners to understand your requirements clearly.",
+    "f3-title": "IFC Model Validation",
+    "f3-description": "EstiaBIM allows validating IFC models with IDS directly on the platform. Each project or organization participant has access to upload their IFC files and check compliance with project requirements. All stakeholders can verify the information in their models at any time. This approach allows controlling a digital model from its design phase and thus receiving a compliant model at the end of the project phase.",
+    "f4-title": "Validation Report",
+    "f4-description": "When validating an IFC file, EstiaBIM generates detailed reports on non-conformities and model evaluation statistics. These reports (PDF or HTML) can be downloaded and attached to IFC files when transmitted. The evaluation reports help quickly understand which specifications are non-compliant and which model elements need attention. Elements are identified with GUID and TAG in our reports, making it easy to find the element.",
+    "f5-title": "Secure Access for All",
+    "f5-description": "EstiaBIM allows all project or organization members to work on the same platform. The platform is accessible via an authentication portal that identifies the user and grants access rights according to their profile. Using EstiaBIM ensures that all project members use the same version of the IDS. They have access to verify their models, understand IDS content, create new requirements, or import existing IDS. Quality control of models will be greatly improved.",
+    "f6-title": "Import Existing IDS",
+    "f6-description": "New: It is now possible to import an existing IDS and view the associated rules on a web page. EstiaBIM allows exporting a PDF report of the IDS content to make it understandable to humans. An existing IDS can also be converted to XLSX format for editing and creating a new one. This function allows maintaining IDS over time or simply copying an existing IDS. When importing an existing IDS, it is possible to filter the specifications we want to address."
+  },
+  "pourQui": {
+    "title": "Who Should Use IDS?",
+    "description": "BIM data is used throughout all project phases, from design to construction, building operation, and demolition. Therefore, all project stakeholders should work with IDS to improve information exchange.",
+    "action-button": "More Information"
+  },
+  "advantages": {
+    "section-title": "Advantages",
+    "title": "Why Choose EstiaBIM?",
+    "description": "EstiaBIM combines all the functions to fully exploit IDS potential for all project stakeholders in one environment.",
+    "adv1-title": "Centralized Platform as Part of the CDE (Common Data Environment)",
+    "adv1-description": "All project members use the same platform. They have permanent access to all features without installing software, regardless of their operating system. There are no more licensing issues for internal or external users of your organization. A modeler can easily check the quality of their models at any time.",
+    "adv2-title": "Rule Management in an Excel Spreadsheet",
+    "adv2-description": "Excel spreadsheets remain the simplest and fastest way to manage rules. Copying data from one file to another is efficient, and spreadsheets have functions to extend rows and formulas to simplify data entry. Even today, a spreadsheet is the most efficient solution for data entry compared to software interfaces.",
+    "adv3-title": "IDS Conversion to PDF",
+    "adv3-description": "The IDS format is designed to be machine-readable, making it difficult for humans to understand its content. EstiaBIM converts IDS to PDF to make it understandable to everyone. Additionally, standardized reports simplify understanding the content of an IDS. These reports also help quickly identify errors in your rule settings.",
+    "adv4-title": "Fast, Simple, Effective",
+    "adv4-description": "EstiaBIM focuses on digital model data quality control, and the platform is developed to make IDS use simple for all project members. The features are complete and cover all use cases. With EstiaBIM, you no longer need to be a BIM specialist to perform quality control; every project stakeholder can self-check.",
+    "adv5-title": "Web Application",
+    "adv5-description": "EstiaBIM is a platform accessible via a web browser. The platform can be accessed from a computer (Windows-MacOs-Linux) or mobile devices (Android, iOS). The server hosting the platform will perform calculations for users.",
+    "adv6-title": "One License for All",
+    "adv6-description": "One license allows inviting as many collaborators as you want, whether they are internal or external to your organization. For this reason, it is easy to implement a quality management process for your organization or project without any constraints. For a quality control process to be adopted, everyone must have permanent access."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "If you don't find the answer to your questions, you can ",
+    "link": "contact us.",
+    "faq1-title": "Which file versions are accepted by the platform?",
+    "faq1-description": "EstiaBIM accepts the following IFC files: IFC 2x3, IFC 4, IFC 4x3. The system currently works with IDS version 0.9.7 and will be updated with the latest versions.",
+    "faq2-title": "What is the maximum file size that can be uploaded to the platform?",
+    "faq2-description": "If you choose a dedicated server, you can set the maximum file size from 200 MB to 1.2 GB in 200 MB increments. The servers will then be scaled to ensure system performance. However, the validation time of a file is highly dependent on the file size and the number of specifications. On the community server, the size is limited to 400 MB.",
+    "faq3-title": "Is there a limit to the number of users?",
+    "faq3-description": "No, the number of users and connections is unlimited. However, the number of concurrent IFC file validations is limited depending on the chosen license. A high number of concurrent validations may require setting up load balancing between different servers.",
+    "faq4-title": "How does support work?",
+    "faq4-description": "For questions about using the platform, you can contact support by email. You will receive a response within 48 hours.",
+    "faq5-title": "What information can IDS check?",
+    "faq5-description": "The IDS format is defined by BuildingSMART. The specifications can filter or check the following elements: entity, attribute, classification, property, material, relationship. You can find the BuildingSMART documentation ",
+    "faq5-link": "on the following page",
+    "faq6-title": "How to get EstiaBIM?",
+    "faq6-description": "You can request a quote through the contact page. Depending on the information provided, the server performance will be evaluated and you will receive a quote. If the quote is accepted, your EstiaBIM platform will be available within a week at the following address: [my-company].estiabim.ch",
+    "faq7-title": "What languages are available ?",
+    "faq7-description": "The EstiaBIM platform and all reports are translated into 5 different languages (EN, FR, DE, IT, ES). When setting up the platform, it is possible to define a default language and which languages are available."
+  },
+  "footer": {
+    "short-app-description": "EstiaBIM for managing BIM data quality",
+    "section-title-for-links": "Interesting Links"
+  },
+  "pour-Qui-page": {
+    "section-title": "EstiaBIM: For Whom?",
+    "title": "For Every BIM User",
+    "description": "EstiaBIM enables the organization of the quality of BIM data exchange.",
+    "content": "BIM is a project management method that facilitates information exchange based on a digital model. This data must be well-structured to ensure reliable information exchange at every project stage. Every project participant is therefore involved in managing this data, whether they are the requester, modeler, specialist, or user. To ensure the structure of this data, it becomes necessary to implement quality management processes. You understand then that managing BIM data concerns every project participant.",
+    "list-item-title1": "Building Owners",
+    "list-item-description1": "During construction or in the operational phase of the building, the building owner needs multiple pieces of information about their project. They are the information requester and must be able to clearly and structurally communicate their requirements to their partners. They must also be able to verify that the received documents meet their requirements. EstiaBIM allows them to create their requirements and then translate them into an IDS and PDF file. They also have the possibility to quickly check the models and provide their own validation system to their contractors.",
+    "list-item-title2": "Contractors",
+    "list-item-description2": "Architects and specialized engineers are tasked with creating digital models. The contractors must therefore be able to understand an IDS file and create models according to the expectations of end-users. It is important to set up efficient quality control of the data to quickly detect non-conformities. The modeler must have the ability to self-check to become more efficient in their tasks. EstiaBIM enables the simple and effective setup of such control.",
+    "list-item-title3": "General Contractors",
+    "list-item-description3": "A building owner hires a general contractor to manage the construction of a project. The general contractors are responsible for translating the owner's requirements to the various modelers and checking the quality of the created documents. They also develop internal use cases to improve their processes. They must therefore be able to receive the owner's IDS, supplement the IDS with their own requirements, and communicate these requirements. Sometimes it may be necessary to split an IDS into specialties to target requirements to the relevant modelers. EstiaBIM allows you to easily handle all aspects of IDS management.",
+    "list-item-title4": "Construction Companies",
+    "list-item-description4": "Plans on construction sites are gradually being replaced by BIM models. Construction companies therefore need structured data to use the digital models. They must be able to communicate their requirements to the modelers and check the data before passing it on to the site. EstiaBIM simplifies this process to make BIM accessible to everyone.",
+    "list-item-title5": "BIM Management",
+    "list-item-description5": "The ISO 19650 standard defines the key elements for effective information management in BIM. A key element is the Exchange Information Requirements (EIR). EstiaBIM allows comprehensive management of the EIR with the following functions: import existing IDS with filtering, modify IDS, create new IDS, and check models. In a process where all participants must communicate their requirements to the project’s BIM manager, it is important that this person has a powerful tool. EstiaBIM helps BIM managers and BIM coordinators follow the recommendations of the ISO 19650 standard.",
+    "list-item-title6": "Facility Management",
+    "list-item-description6": "All services necessary for the management of the building need a lot of information for their future operation. Their requirements are therefore defined during the planning phase of the building to obtain reliable data at the end of construction. The exchange of information requirements must therefore be clearly and structurally communicated. EstiaBIM allows the creation of requirements and the validation of models.",
+    "content2": "Finally, anyone using BIM data in an application case must be able to express their needs or check the received data. EstiaBIM has been optimized to provide the necessary tools for every application case.",
+    "summary-title": "An OpenBIM Process",
+    "summary-description": "In an OpenBIM approach, BuildingSMART proposes a workflow based on IDS files to standardize information quality control. Our experience has shown that a process must be simple to be permanently adopted by users. EstiaBIM allows the simple and effective implementation of a quality control process."
+  },
+  "contact": {
+    "title": "Stay in Touch",
+    "description": "For questions or quote requests, please fill out the contact form.",
+    "contact-us": "Contact",
+    "tel": "+4179xxxxxxx",
+    "email": "info@estiabim.ch"
+  },
+  "contact-form": {
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "e-mail": "E-mail",
+    "phone-number": "Phone Number",
+    "message": "Message",
+    "send-message-btn": "Send",
+    "company-name": "Your Company Name",
+    "company-size": "Number of Employees"
+  },
+  "toast": {
+    "success": "Thank you, we will contact you soon",
+    "error": "Something went wrong"
+  },
+  "open-bim": {
+    "section-title": "Why OpenBIM?",
+    "title": "BIM",
+    "description": "BIM is a method of collaborative project management for construction, based on 3D digital models associated with reliable and structured data.",
+    "content1": "OpenBIM is a BuildingSMART initiative based on open standards and workflows. OpenBIM enhances the collaborative aspect of BIM by facilitating data interoperability between software applications. With this methodology, all project stakeholders can work together and exchange data regardless of the software they use. In contrast, ClosedBIM requires all project stakeholders to work with the same software. The main standards proposed by BuildingSMART are as follows:",
+    "content2": "This approach also offers increased flexibility, allowing professionals to choose software tools that best suit their specific needs while ensuring integration of data from multiple sources and disciplines. Additionally, OpenBIM promotes long-term data sustainability and encourages transparent knowledge sharing within the construction industry, thus contributing to more efficient processes and a better understanding of projects.",
+    "list-title1": "IFC:",
+    "list-description1": "IFC (Industry Foundation Classes) format is an open and neutral standard used in the construction and architecture industry to facilitate information exchange between different building information modeling (BIM) software applications. IFC files contain data related to building elements such as walls, doors, windows, etc., as well as information about their geometry, properties, and spatial relationships. Due to its standardized structure, IFC enables efficient collaboration throughout the lifecycle of a construction project, from design to facility management.",
+    "list-title2": "BCF:",
+    "list-description2": "BCF (BIM Collaboration Format) format is an open standard used in the BIM industry to facilitate communication and collaboration among different stakeholders in a construction project. BCF files contain comments, annotations, and issues related to the BIM model, allowing users to report and track defects, changes, and suggestions directly within the model. This approach promotes transparent and effective communication throughout the design, construction, and building management process.",
+    "list-title3": "IDS:",
+    "list-description3": "IDS (Information Delivery Specification) format is a set of standardized specifications that defines data and process requirements for building information modeling (BIM). It provides a structured framework for creating, managing, and exchanging BIM data throughout the lifecycle of a construction project. By using the IDS format, stakeholders can agree on the information required for each phase of the project, ensuring efficient collaboration and seamless data integration across different disciplines and software systems.",
+    "image-description": "Validation engine, your quality assurance (BuildingSMART)",
+    "paragraph-title1": "BIM Use Cases and BIM Data",
+    "paragraph-description1": "Data exchange is one of the fundamental pillars of BIM, offering a multitude of use cases in the construction industry. Through the collaborative design process, teams can exchange 3D models and information to visualize and analyze different phases of a project. During planning and construction, data exchange allows for the exchange of valuable information such as element characteristics, their spatial relationships and positions, costs, deadlines, information specific to dimensions, guarantees, and element functions. There is no limit, and any information useful to a use case can be included in digital models. After project delivery, BIM data continues to be valuable for facility management, preventive maintenance, and decision-making based on historical data. In summary, BIM data exchange enables transparent collaboration throughout the lifecycle of a construction project, improving efficiency, quality, and building sustainability.",
+    "paragraph-title2": "How IDS Works",
+    "paragraph-description2": "According to BuildingSMART, an Information Delivery Specification (IDS) is presented as a machine-interpretable document that establishes information exchange conditions in a model-based context. It defines how objects, classifications, properties, as well as values and units should be delivered and shared. This specification represents the standard to follow to define the required level of information. It ensures the validation of IFC for the client, the modeler, and the software tools used for (automated) analyses. It is a crucial element that can serve as a contract to guarantee the provision of correct information. Additionally, it offers the possibility to create specific and localized requirements tailored to the different use cases encountered in your projects and asset portfolio. In summary, IDS represents the solution to establish predictable and reliable data exchange workflows.",
+    "paragraph-title3": "BIM Data Quality",
+    "paragraph-description3": "With BIM, the amount of information becomes significant, and this data must be usable by other project stakeholders. We can liken this process to exchanging databases, and by making this analogy, we quickly realize the importance of having a well-established data structure. For this reason, it is important to implement collaboration methods that allow defining requirements, transmitting these requirements understandably, verifying the data to be transmitted or received, and maintaining this process over time. Today, establishing a data quality management process becomes a major challenge in our BIM projects. Furthermore, BIM applications evolve as companies deepen their adoption of this technology, leading to a significant increase in the volume of information to manage.",
+    "paragraph-title4": "EstiaBIM",
+    "paragraph-description4": "The EstiaBIM platform simplifies and makes the data quality control process efficient by relying on OpenBIM methods. Moreover, it offers the possibility to create its own Information Delivery Specifications (IDS) and export them in formats readable by both machines and individuals. This platform provides all project stakeholders with a model verification system and analysis reports. EstiaBIM also allows importing external IDS to make them accessible to relevant individuals or adapt them to our specific project needs. Designed to simplify the information quality management process, EstiaBIM aims to promote the establishment of these processes in the construction and maintenance field."
+    },
+    "meta": {
+      "home-meta-title": "EstiaBIM for BIM Data Quality Management",
+      "home-meta-description": "EstiaBIM is a platform based on BuildingSMART's OpenBIM concepts to optimize BIM data exchange with IDS",
+      "pourqui-meta-title": "Who Should Use IDS",
+      "pourqui-meta-description": "An OpenBIM process for BIM data quality management for all project stakeholders based on IDS",
+      "openbim-meta-title": "OpenBIM and BIM Data Quality Management",
+      "openbim-meta-description": "The EstiaBIM platform simplifies and makes the BIM data quality control process efficient by relying on OpenBIM methods",
+      "contact-meta-title": "Contact the EstiaBIM Team",
+      "contact-meta-description": "An inquiry for our EstiaBIM platform for BIM data quality management or for information"
+  }
+}
+  
